@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DutchBMI - Bereken uw BMI Score</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link rel = "stylesheet" type = "text/css" href = "css/style.css" />
+</head>
+
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <h1 class="display-4 text-center mb-3">Bereken hier uw BMI</h1>
+
+            <form>
+                <div class="form-group">
+                    <input type="number"
+                           id="kgInput"
+                           class="form-control form-control-lg"
+                           placeholder="Gewicht in kg...">
+                    <input type="number"
+                           id="cmInput"
+                           class="form-control form-control-lg"
+                           placeholder="Lengte in cm...">
+                    <button type="button" id="berekenenBtn" class="btn btn-primary btn-lg btn-block">BEREKENEN</button>
+                </div>
+            </form>
+
+            <div class="card bg-dark mb-3" id="card">
+                <div class="card-body">
+                    <div id="cardContent">
+                    <h5 id="gewichtInPoundsTxt">Uw gewicht in ponden is: </h5>
+                    <h5 id="poundsOutput"></h5>
+                    <h5 id="bmiScoreTxt">Uw BMI is: </h5>
+                    <h5 id="bmiOutput"></h5>
+                    <h2 id="result"></h2>
+                        <button type="button" class="btn btn-secondary" id="toggleDisclaimer">
+                            ?
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="js/app.js"></script>
+</html>
