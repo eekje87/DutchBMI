@@ -1,3 +1,3 @@
-<H1>Euroteken typen op toetsenbord, een alt-code truc!</H1>
+Euroteken typen op toetsenbord, een alt-code truc!
 
-Dit is een uitleg betreft het <a href="https://www.euroteken.eu">euroteken op je toetsenbord<a/> en hoe je deze typt op zowel traditionele Windows als Mac (apple) machines.
+Dit is een uitleg betreft euroteken op je toetsenbord en hoe je deze typt op zowel traditionele Windows als Mac (apple) machines. https://www.euroteken.eu
